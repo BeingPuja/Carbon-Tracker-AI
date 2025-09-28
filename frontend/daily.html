@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Emission - Carbon Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-brand">Carbon Tracker</div>
+    <ul class="nav-links">
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="forecast.html">Forecast</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="chat.html">Chatbot</a></li>
+      <li><a href="index.html" id="logout-btn">Logout</a></li>
+    </ul>
+  </nav>
+
+  <div class="panel">
+    <h2>🌿 Daily Emission Entry</h2>
+    <p>Enter your daily activities to calculate your carbon footprint:</p>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date">
+
+    <label for="distance">Transport Distance (km):</label>
+    <input type="number" id="distance" placeholder="e.g. 15">
+
+    <label for="mode">Mode of Transport:</label>
+    <select id="mode">
+      <option value="car">Car</option>
+      <option value="bus">Bus</option>
+      <option value="bike">Bike</option>
+      <option value="flight">Flight</option>
+      <option value="train">Train</option>
+    </select>
+
+    <label for="kwh">Energy Usage (kWh):</label>
+    <input type="number" id="kwh" placeholder="e.g. 10">
+
+    <label for="meals">Number of Meals:</label>
+    <input type="number" id="meals" placeholder="e.g. 3">
+
+    <label for="diet">Diet Type:</label>
+    <select id="diet">
+      <option value="meat">Meat</option>
+      <option value="vegetarian">Vegetarian</option>
+      <option value="vegan">Vegan</option>
+      <option value="mixed">Mixed</option>
+    </select>
+
+    <button id="calc-btn">Calculate Emissions</button>
+    <p id="emission-result"></p>
+  </div>
+
+  <script src="script.js"></script>
+  <footer class="footer">
+  <p>🌱 Developed with ❤️ by <strong>Puja Dhar</strong></p>
+</footer>
+</body>
+</html>
