@@ -27,10 +27,13 @@ Carbon Tracker is a **full-stack AI project** that helps users **track daily COâ
 **Dashboard**
 ![dashboard](frontend/assets/dashboard.png)
 
+**Daily Emission**
 ![Daily Emission](frontend/assets/daily.png)
 
+**History**
 ![history](frontend/assets/history.png)
 
+**forecast**
 ![forecast](frontend/assets/forecast.png)
 ##  Getting Started
 
