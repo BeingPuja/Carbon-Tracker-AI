@@ -4,18 +4,18 @@ Carbon Tracker is a **full-stack AI project** that helps users **track daily CO�
 
 ---
 
-## ✨ Features
-- 🔐 **User Authentication** – Secure login & registration with JWT  
-- 📊 **Daily Emission Tracking** – Calculate transport, energy, and diet-based emissions  
-- 📅 **History View** – Browse past emissions datewise  
-- 🤖 **AI Forecasting** – Predict future emissions using Random Forest regression  
-- 💬 **Chatbot Support** – AI assistant powered by Hugging Face DialoGPT  
-- 🎨 **Frontend** – Responsive jungle-themed design with HTML, CSS, and JavaScript  
-- 🗄️ **Backend** – Flask API with SQLite database  
+## Features
+- **User Authentication** – Secure login & registration with JWT  
+- **Daily Emission Tracking** – Calculate transport, energy, and diet-based emissions  
+- **History View** – Browse past emissions datewise  
+- **AI Forecasting** – Predict future emissions using Random Forest regression  
+- **Chatbot Support** – AI assistant powered by Hugging Face DialoGPT  
+- **Frontend** – Responsive jungle-themed design with HTML, CSS, and JavaScript  
+- **Backend** – Flask API with SQLite database  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 **Frontend:** HTML, CSS, JavaScript  
 **Backend:** Python (Flask, Flask-CORS, Flask-JWT-Extended)  
 **Database:** SQLite  
@@ -23,12 +23,18 @@ Carbon Tracker is a **full-stack AI project** that helps users **track daily CO�
 
 ---
 
-## 🚀 Getting Started
+## Screenshots
+**Dashboard**
+![dashboard](assets/dashboard.png)
+![Daily Emission](assets/daily.png)
+![history](assets/history.png)
+![forecast](assets/forecast.png)
+##  Getting Started
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/carbon-tracker-ai.git
-cd carbon-tracker-ai
+git clone https://github.com/BeingPuja/Carbon-Tracker-AI.git
+cd Carbon-Tracker-AI
 2. Install Dependencies
 pip install -r requirements.txt
 
@@ -43,18 +49,18 @@ Backend will start at: http://127.0.0.1:5000
 
 Open frontend/index.html in your browser.
 
-📂 Project Structure
+ Project Structure
 carbon-tracker-ai/
 │── backend/           # Flask backend
 │   ├── app.py         # Main backend app
 │   ├── calculator.py  # Emission calculation logic
 │   ├── forecast.py    # ML model for forecasting
-│   ├── chatbot.py     # Hugging Face chatbot
 │   ├── models.py      # Database models
 │   ├── database.py    # SQLite connection
 │
 │── frontend/          # Frontend files
 │   ├── index.html     # Login/Register
+│   ├── forgot.html     # if forget the credentials to login
 │   ├── daily.html     # Daily emission page
 │   ├── history.html   # Emission history
 │   ├── forecast.html  # Forecast visualization
@@ -66,7 +72,7 @@ carbon-tracker-ai/
 │── requirements.txt   # Python dependencies
 │── README.md          # Project documentation
 
-🎯 Future Improvements
+ Future Improvements
 
 Optimize forecast model training (cache results)
 
