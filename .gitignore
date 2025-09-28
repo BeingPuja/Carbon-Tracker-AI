@@ -1,8 +1,47 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
+*.py[cod]
+*$py.class
+
+# Virtual environment
 venv/
-instance/
+env/
+*.venv/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# PyTorch / Transformers cache
+*.pt
+*.bin
+cache/
+transformers_cache/
+hf_cache/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# SQLite database
+*.db
+carbon_tracker.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Node / Frontend (if any)
+node_modules/
