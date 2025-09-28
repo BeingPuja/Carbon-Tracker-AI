@@ -78,7 +78,7 @@ carbon-tracker-ai/
 │── requirements.txt   # Python dependencies
 │── README.md          # Project documentation
 
- Future Improvements
+## Future Improvements
 
 Optimize forecast model training (cache results)
 
